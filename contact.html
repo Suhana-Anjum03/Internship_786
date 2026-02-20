@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact - Coca-Cola Company</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+.contact-container{
+    display:flex;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.contact-form{
+    flex:1;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contact-info{
+    flex:1;
+    background:#d00000;
+    color:white;
+    padding:25px;
+    border-radius:10px;
+}
+
+.contact-info h2{
+    margin-bottom:15px;
+}
+
+.contact-info p{
+    margin:10px 0;
+}
+
+.social-icons img{
+    width:30px;
+    margin:10px 10px 0 0;
+}
+
+.map{
+    margin-top:30px;
+}
+</style>
+
+</head>
+<body>
+
+<nav>
+<img src="cocacola.jpg"> 
+<div class="links">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="products.html">Products</a>
+<a href="contact.html">Contact</a>
+</nav></div>
+</nav>
+
+<div class="container">
+<h1>Contact Us</h1>
+
+<div class="contact-container">
+
+<!-- CONTACT FORM -->
+<div class="contact-form">
+<h2>Send a Message</h2>
+
+<form>
+<input type="text" placeholder="Full Name" required>
+<input type="email" placeholder="Email Address" required>
+<input type="text" placeholder="Subject">
+<textarea rows="5" placeholder="Your Message"></textarea>
+<button class="btn">Send Message</button>
+</form>
+</div>
+
+<!-- COMPANY INFO -->
+<div class="contact-info">
+<h2>Get in Touch</h2>
+<p>📍 Coca-Cola Company, Atlanta, USA</p>
+<p>📞 +1 800 123 456</p>
+<p>✉ support@cocacola.com</p>
+
+<h3>Follow Us</h3>
+<div class="social-icons">
+<img src="facebook.jpeg">
+<img src="twit.jpeg">
+<img src="INSTA.jpeg">
+</div>
+</div>
+
+</div>
+
+<!-- GOOGLE MAP -->
+<div class="map">
+<iframe src="https://www.google.com/maps?q=atlanta&output=embed"
+width="100%" height="250" style="border:0;"></iframe>
+</div>
+
+</div>
+
+<footer>
+<p>@2026 The Coca-Cola Company | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
